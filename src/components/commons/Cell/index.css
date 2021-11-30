@@ -1,0 +1,31 @@
+.cell-dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: slategrey;
+}
+
+.cell-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell-box {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: snow;
+}
+
+.cell-icon {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
